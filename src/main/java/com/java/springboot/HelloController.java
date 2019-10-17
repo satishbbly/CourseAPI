@@ -5,9 +5,15 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
- @RequestMapping("/hello")
-	public String sayHi()
-	{
+	@RequestMapping("/hello")
+	public String sayHi() {
+		try {
+			int i = 10 / 10;
+		} catch (Exception e) {
+			// TODO: handle exception
+		} finally {
+
+		}
 		return "Hi";
 	}
 }
