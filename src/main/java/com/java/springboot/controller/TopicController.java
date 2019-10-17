@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.java.springboot.model.Topic;
-
+// this is topics controller
 @RestController
 public class TopicController {
 	
